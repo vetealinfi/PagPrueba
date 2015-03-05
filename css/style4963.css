@@ -2277,7 +2277,9 @@ input[type="submit"] {
 	float: none !important;
 	}
 	.w-logo-link {
+		margin-top: 10px;
 		color: inherit;
+		height: 80px;
 		}
 		.w-logo-title {
 			font-size: 27px;

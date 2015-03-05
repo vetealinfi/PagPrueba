@@ -120,7 +120,7 @@ h6 {
 .l-subheader.at_top .w-lang-list,
 .l-subheader.at_bottom,
 .l-subheader.at_bottom .touch_enabled .w-nav-list.level_1 {
-	background-color: #6039a8;
+	background-color: #99CC00;
 	}
 
 /* Extended Header Text Color */
@@ -128,7 +128,7 @@ h6 {
 .l-subheader.at_bottom,
 .transparent .l-subheader.at_bottom .touch_enabled .w-nav-list.level_1,
 .w-lang.active .w-lang-item {
-	color: #c8b8e5;
+	color: #336600;
 	}
 .l-subheader.at_bottom .w-nav-anchor.level_1 .ripple {
 	background-color: #c8b8e5;
@@ -178,7 +178,7 @@ h6 {
 
 /* Menu Hover Background Color */
 .no-touch .l-header .w-nav-item.level_1:hover .w-nav-anchor.level_1 {
-	background-color: #6039a8;
+	background-color: #99CC00;
 	}
 
 /* Menu Hover Text Color */
@@ -190,7 +190,7 @@ h6 {
 .l-header .w-nav-item.level_1.active .w-nav-anchor.level_1,
 .l-header .w-nav-item.level_1.current-menu-item .w-nav-anchor.level_1,
 .l-header .w-nav-item.level_1.current-menu-ancestor .w-nav-anchor.level_1 {
-	color: #ffc670;
+	color: #99CC00;
 	}
 	
 /* Transparent Menu Active Text Color */
@@ -429,7 +429,7 @@ a.g-btn.color_light.type_raised,
 button.g-btn.color_contrast.type_raised,
 a.g-btn.color_contrast.type_raised,
 .w-iconbox.type_circle.color_contrast .w-iconbox-icon {
-	background-color: #424242;
+	background-color: #99CC00;
 	}
 	
 /* Primary Color */
@@ -451,7 +451,7 @@ a.g-btn.color_primary.type_flat,
 .woocommerce-tabs .tabs li.active,
 input[type="radio"]:checked + .wpcf7-list-item-label:before,
 input[type="checkbox"]:checked + .wpcf7-list-item-label:before {
-	color: #7049ba;
+	color: #99CC00;
 	}
 .l-submain.color_primary,
 .highlight_primary_bg,
@@ -482,7 +482,7 @@ input:focus ~ .w-search-input-bar:after,
 .woocommerce-pagination span.current,
 .widget_price_filter .ui-slider-range,
 .widget_price_filter .ui-slider-handle {
-	background-color: #7049ba;
+	background-color: #99CC00;
 	}
 .g-html blockquote,
 .w-filters-item.active,
@@ -521,7 +521,7 @@ a.g-btn.color_secondary.type_flat,
 .no-touch .l-main .widget_product_tag_cloud .tagcloud a:hover,
 .woocommerce .star-rating span:before,
 .woocommerce .stars span a:after {
-	color: #ffb03a;
+	color: #99CC00;
 	}
 .l-submain.color_secondary,
 .highlight_secondary_bg,
@@ -535,7 +535,7 @@ a.g-btn.color_secondary.type_raised,
 p.demo_store,
 .woocommerce .onsale,
 .woocommerce .form-row .chosen-results li.highlighted {
-	background-color: #ffb03a;
+	background-color: #99CC00;
 	}
 
 /* Fade Elements Color */
@@ -592,7 +592,7 @@ a.g-btn.color_light.type_flat,
 .l-subfooter.at_top h4,
 .l-subfooter.at_top h5,
 .l-subfooter.at_top h6 {
-	color: #9e9e9e;
+	color: #99CC00;
 	}
 	
 /* Text Color */
