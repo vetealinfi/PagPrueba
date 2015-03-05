@@ -1,0 +1,182 @@
+/*
+ ************************** Widget w-switcher basic styles ************************/
+.w-switcher {
+	position: fixed;
+	top: 100px;
+	left: -200px;
+	z-index: 1111;
+	background-color: #111;
+	background-color: rgba(0,0,0,0.85);
+	color: #fff;
+	}
+	.w-switcher-head {
+		height: 0;
+		width: 200px;
+		position: relative;
+		}
+		.w-switcher-title {
+			display: none;
+			font-size: 16px;
+			line-height: 40px;
+			font-weight: 300;
+			}
+		.w-switcher-control {
+			position: absolute;
+			top: 38px;
+			right: -50px;
+			font-size: 24px;
+			text-align: center;
+			line-height: 48px;
+			height: 50px;
+			width: 50px;
+			cursor: pointer;
+			background-color: #111;
+			background-color: rgba(0,0,0,0.85);
+			-webkit-transition: background-color 0.3s cubic-bezier(0.165,0.84,0.44,1), color 0.3s cubic-bezier(0.165,0.84,0.44,1);
+					transition: background-color 0.3s cubic-bezier(0.165,0.84,0.44,1), color 0.3s cubic-bezier(0.165,0.84,0.44,1);
+			}
+			.w-switcher-control:hover {
+				background-color: #000;
+				}
+	.w-switcher-body {
+		padding: 15px 20px;
+		width: 200px;
+		}
+		.w-switcher-section {
+			margin-bottom: 8px;
+			}
+		.w-switcher-section.for_layout {
+			display: block;
+			}
+			.w-switcher-section-title {
+				display: block;
+				font-size: 13px;
+				line-height: 18px;
+				text-align: center;
+				margin-bottom: 6px;
+				opacity: 0.7;
+				}				
+			.w-switcher-section-list {
+				margin-right: -3px;
+				}
+				.w-switcher-section-list:after,
+				.w-switcher-section-list:before {
+					display: table;
+					content: '';
+					}
+				.w-switcher-section-list:after {
+					clear: both;
+					}
+				.w-switcher-section-item {
+					float: left;
+					font-size: 12px;
+					line-height: 28px;
+					text-align: center;
+					text-decoration: none;
+					margin: 0 3px 0 0;
+					width: 25px;
+					height: 28px;
+					position: relative;
+					cursor: pointer;
+					background-color: #444;
+					color: #fff;
+					}
+					.w-switcher-section-item:focus,
+					.no-touch .w-switcher-section-item:hover {
+						color: #fff;
+						}
+					.w-switcher-section-item.active {
+						box-shadow: 0 0 0 2px rgba(255,255,255,0.8);
+						color: #fff;
+						z-index: 3;
+						}
+					.w-switcher-section-item .text {
+						position: relative;
+						padding: 0 4px;
+						text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+						background-color: #333;
+						background-color: rgba(0,0,0,0.5);
+						}
+			.w-switcher-section-text {
+				display: none;
+				font-size: 12px;
+				color: #999;
+				}
+				
+
+/*
+ ********************* Widget w-switcher modifications **********************/
+
+.w-switcher-section.for_layout .w-switcher-section-item {
+	width: 86px;
+	}
+.w-switcher-section.for_color .w-switcher-section-item {
+	width: 160px;
+	}
+	
+.w-switcher-section-item .colorblocks {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	}
+		
+.w-switcher-section-item .colorblocks i {
+	float: left;
+	height: 100%;
+	width: 50%;
+	}
+	
+.w-switcher-section-item.color_0 .c1 {
+	background-color: #fff;
+	}
+.w-switcher-section-item.color_0 .c2 {
+	background-color: #fe4641;
+	}
+
+.w-switcher-section-item.color_1 .c1 {
+	background-color: #2c3e50;
+	}
+.w-switcher-section-item.color_1 .c2 {
+	background-color: #6dbcdb;
+	}
+
+.w-switcher-section-item.color_2 .c1 {
+	background-color: #29b28f;
+	}
+.w-switcher-section-item.color_2 .c2 {
+	background-color: #0190a8;
+	}
+
+.w-switcher-section-item.color_3 .c1 {
+	background-color: #fff;
+	}
+.w-switcher-section-item.color_3 .c2 {
+	background-color: #111;
+	}
+
+.w-switcher-section-item.color_4 .c1 {
+	background-color: #21282e;
+	}
+.w-switcher-section-item.color_4 .c2 {
+	background-color: #9076c4;
+	}
+
+.w-switcher-section-item.color_5 .c1 {
+	background-color: #fff;
+	}
+.w-switcher-section-item.color_5 .c2 {
+	background-color: #f4a641;
+	}
+
+/*
+ ********************* Widget w-switcher responsive **********************/
+ 
+@media only screen and (max-width: 1023px) {
+.w-switcher {
+	display: none;
+	}
+}
